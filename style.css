@@ -8,22 +8,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: sans-serif;
 
 }
 
 .calculadora{
     height: 50%;
-    width: 30%;
-    border: solid 1px black;
+    width: 20%;
     display: grid;
+    background-color: #010101;
     grid-template-areas: 
     "resul resul resul resul"
     "siete ocho nueve divi"
     "cuatro cinco seis multi"
     "uno dos tres mas"
     "igual atras ac menos";
-    gap: 1em;
     padding: 2em;
+    gap: 1em;
 
 }
 
@@ -34,9 +35,21 @@
     align-items: center;
 }
 .mostrar{
-    height: 50%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
     border: solid 1px black;
+    display: flex;
+    align-items: center;
+    text-indent: 7px;
+    overflow: scroll;
+    background-color: white;
+}
+.stylos{
+    font-size: 1.4em;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: transparent;
+    background-color: white;
 }
 .siete{
     grid-area: siete;
@@ -77,6 +90,9 @@
 }
 .igual{
     grid-area: igual;
+    border-radius: 50%;
+    background-color:rgb(191, 102, 254);
+    color: black;
 }
 .atras{
     grid-area: atras;
