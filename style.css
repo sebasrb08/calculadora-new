@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calculadora{
+    height: 50%;
+    width: 30%;
+    border: solid 1px black;
+    display: grid;
+    grid-template-areas: 
+    "resul resul resul resul"
+    "siete ocho nueve divi"
+    "cuatro cinco seis multi"
+    "uno dos tres mas"
+    "igual atras ac menos";
+    gap: 1em;
+    padding: 2em;
+
+}
+
+.Resultado{
+    grid-area: resul;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mostrar{
+    height: 50%;
+    width: 80%;
+    border: solid 1px black;
+}
+.siete{
+    grid-area: siete;
+}
+
+.ocho{
+    grid-area: ocho;
+}
+.nueve{
+    grid-area: nueve;
+}
+.divi{
+    grid-area: divi;
+}
+.cuatro{
+    grid-area: cuatro;
+}
+.cinco{
+    grid-area: cinco;
+}
+.seis{
+    grid-area: seis;
+}
+.multi{
+    grid-area: multi;
+}
+.uno{
+    grid-area: uno;
+}
+.dos{
+    grid-area: dos;
+}
+.tres{
+    grid-area: tres;
+}
+.mas{
+    grid-area: mas;
+}
+.igual{
+    grid-area: igual;
+}
+.atras{
+    grid-area: atras;
+}
+
+.ac{
+    grid-area: ac;
+}
+.menos{
+    grid-area: menos;
+}
